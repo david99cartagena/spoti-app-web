@@ -28,11 +28,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              {
-                "build": "ng build && cp src/_redirects dist/spoti-app/_redirects"
-              }
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
