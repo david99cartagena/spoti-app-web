@@ -12,9 +12,12 @@ Este proyecto se desarrolló como parte del curso **"Angular de Cero a Experto (
 
 ## 📸 Demo
 
-![Spoti-App Screenshot](https://i.imgur.com/your-screenshot.png)
-
-<!-- Puedes subir una imagen de tu app en acción -->
+- Inicio
+  ![Spoti-App Screenshot](https://raw.githubusercontent.com/david99cartagena/spoti-app-web/refs/heads/main/media/Screenshot_1.png)
+- Seleccion de un artista
+  ![Spoti-App Screenshot](https://raw.githubusercontent.com/david99cartagena/spoti-app-web/refs/heads/main/media/Screenshot_2.png)
+- Busqueda
+  ![Spoti-App Screenshot](https://raw.githubusercontent.com/david99cartagena/spoti-app-web/refs/heads/main/media/Screenshot_3.png)
 
 ## 🚀 Tecnologías Utilizadas
 
