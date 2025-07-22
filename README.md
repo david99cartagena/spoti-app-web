@@ -12,11 +12,15 @@ Este proyecto se desarrolló como parte del curso **"Angular de Cero a Experto (
 
 ## 📸 Demo
 
-- Inicio
+🔗 **Visita la demo en línea:** [Spoti-App en Netlify](https://starlit-valkyrie-da3355.netlify.app)
+
+- **Inicio**  
   ![Spoti-App Screenshot](https://raw.githubusercontent.com/david99cartagena/spoti-app-web/refs/heads/main/media/Screenshot_1.png)
-- Seleccion de un artista
+
+- **Selección de un artista**  
   ![Spoti-App Screenshot](https://raw.githubusercontent.com/david99cartagena/spoti-app-web/refs/heads/main/media/Screenshot_2.png)
-- Busqueda
+
+- **Búsqueda**  
   ![Spoti-App Screenshot](https://raw.githubusercontent.com/david99cartagena/spoti-app-web/refs/heads/main/media/Screenshot_3.png)
 
 ## 🚀 Tecnologías Utilizadas
