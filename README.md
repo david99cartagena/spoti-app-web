@@ -12,7 +12,7 @@ Este proyecto se desarrolló como parte del curso **"Angular de Cero a Experto (
 
 ## 📸 Demo
 
-🔗 **Visita la demo en línea:** [Spoti-App en Netlify](https://starlit-valkyrie-da3355.netlify.app)
+🔗 **Visita la demo en línea:** [Spoti App en Netlify](https://starlit-valkyrie-da3355.netlify.app)
 
 - **Inicio**  
   ![Spoti-App Screenshot](https://raw.githubusercontent.com/david99cartagena/spoti-app-web/refs/heads/main/media/Screenshot_1.png)
@@ -73,7 +73,7 @@ git clone https://github.com/david99cartagena/spoti-app-web.git
 ```
 
 ```bash
-cd spoti-app
+cd spoti-app-web
 ```
 
 2. Instala las dependencias:
@@ -113,14 +113,14 @@ Si quieres usar tu propia app:
 
 1. Regístrate en [Spotify for Developers](https://developer.spotify.com/dashboard/)
 2. Crea una nueva aplicación y copia tu `client_id` y `client_secret`
-3. Reemplaza los valores en `spotify.service.ts`:
+3. Reemplaza los valores en `spotify.service.ts`
 
 ```ts
 const clientId = "TU_CLIENT_ID";
 const clientSecret = "TU_CLIENT_SECRET";
 ```
 
-Basado en el curso de **Fernando Herrera** – [Angular: De Cero a Experto (Edición 2018)](https://www.udemy.com/course/angular-de-cero-a-experto/)
+Basado en el curso de **Fernando Herrera** – [Angular: De Cero a Experto (Edición 2018)](https://www.udemy.com/course/angular-2-fernando-herrera/)
 
 <!-- ---
 
