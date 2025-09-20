@@ -40,7 +40,7 @@ export class SearchComponent {
     this.loading = true;
     const obs = await this.soptify.getArtistas(termino);
     obs.subscribe((data: any) => (this.artistas = data));
-    console.log(this.soptify);
+    // console.log(this.soptify);
     this.loading = false;
   }
 }

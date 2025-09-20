@@ -86,7 +86,7 @@ export class SpotifyService {
   public token = '';
 
   constructor(private http: HttpClient) {
-    console.log('servicio privado de spotify listo');
+    // console.log('servicio privado de spotify listo');
   }
 
   /* ngOnInit() {
@@ -110,8 +110,8 @@ export class SpotifyService {
       .then(
         (token: any) => {
           this.token = `Bearer ${token['access_token']}`;
-          console.log('estoy en el gettoken');
-          console.log(this.token);
+          // console.log('estoy en el gettoken');
+          // console.log(this.token);
         },
         (err: any) => {
           console.log(err);
@@ -120,7 +120,7 @@ export class SpotifyService {
   }
 
   async getQuery(query: string) {
-    console.log('voy al get queriy');
+    // console.log('voy al get query');
     const url = `https://api.spotify.com/v1/${query}`;
     const headers = new HttpHeaders({
       Authorization: `${this.token}`,
@@ -129,8 +129,8 @@ export class SpotifyService {
     return this.http.get(url, { headers });
   }
   async getNewReleases() {
-    console.log('new release');
-    console.log(this.token);
+    // console.log('new release');
+    // console.log(this.token);
     const obs = await this.getQuery('browse/new-releases?limit=30');
     return obs.pipe(map((data: any) => data.albums.items));
   }

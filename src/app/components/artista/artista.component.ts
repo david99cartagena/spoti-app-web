@@ -24,7 +24,7 @@ export class ArtistaComponent {
     this.loadingArtist = true;
 
     (await this.spotify.getArtista(id)).subscribe((artista) => {
-      console.log(artista);
+      // console.log(artista);
       this.artista = artista;
       this.loadingArtist = false;
     });
@@ -32,7 +32,7 @@ export class ArtistaComponent {
 
   async getTopTracks(id: string) {
     (await this.spotify.getTopTracks(id)).subscribe((topTracks) => {
-      console.log(topTracks);
+      // console.log(topTracks);
       this.topTracks = topTracks;
     });
   }

@@ -55,7 +55,7 @@ export class HomeComponent {
   mensajeError: string | undefined;
   // paises: any[] = [];
   constructor(private spotify: SpotifyService, private http: HttpClient) {
-    console.log('constructor');
+    // console.log('constructor');
     /* this.http
       .get('https://restcountries.eu/rest/v2/lang/es')
       .subscribe((resp: any) => {
