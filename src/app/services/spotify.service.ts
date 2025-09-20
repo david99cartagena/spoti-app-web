@@ -96,8 +96,10 @@ export class SpotifyService {
   } */
 
   getToken() {
-    const clientId = 'ae93d45f63ae40c6bbea562c1dbcad92'; // Your client id
-    const clientSecret = '978f618d87204bd58ba979a9ce9a1ea3'; // Your secret
+    // const clientId = 'ae93d45f63ae40c6bbea562c1dbcad92'; // Your client id
+    // const clientSecret = '978f618d87204bd58ba979a9ce9a1ea3'; // Your secret
+    const clientId = 'f499def5429946519a73d25bae9334d5';
+    const clientSecret = '5a720825ab7a496fa5a8ce6a64815e80';
     const body = new HttpParams()
       .append('grant_type', 'client_credentials')
       .append('client_id', clientId)
