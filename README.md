@@ -1,4 +1,4 @@
-# 🎧 Spoti-App
+# 🎧 Spoti App
 
 Aplicación web desarrollada en **Angular** que consume la **API pública de Spotify** para visualizar artistas, álbumes, canciones y escuchar previews directamente desde el navegador.
 
