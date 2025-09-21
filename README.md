@@ -10,6 +10,8 @@ Este proyecto se desarrolló como parte del curso **"Angular de Cero a Experto (
 - Uso de la API de Spotify
 - Observables y programación reactiva
 
+---
+
 ## 📸 Demo
 
 🔗 **Visita la demo en línea:** [Spoti App en Netlify](https://starlit-valkyrie-da3355.netlify.app)
@@ -23,6 +25,8 @@ Este proyecto se desarrolló como parte del curso **"Angular de Cero a Experto (
 - **Búsqueda**  
   ![Spoti-App Screenshot](https://raw.githubusercontent.com/david99cartagena/spoti-app-web/refs/heads/main/media/Screenshot_3.png)
 
+---
+
 ## 🚀 Tecnologías Utilizadas
 
 - **Angular 15**
@@ -31,6 +35,8 @@ Este proyecto se desarrolló como parte del curso **"Angular de Cero a Experto (
 - **Bootstrap 4**
 - **Spotify API**
 - **HTML5 / CSS3**
+
+---
 
 ## 📁 Estructura del Proyecto
 
@@ -51,6 +57,8 @@ src/
 │   │   └── domseguro.pipe.ts  # Sanitiza URLs para embeds de Spotify
 │   └── app-routing.module.ts  # Configuración de rutas
 ```
+
+---
 
 ## 🔑 Funcionalidades
 
